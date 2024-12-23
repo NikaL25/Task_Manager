@@ -55,29 +55,29 @@ To run the app using Expo, follow these steps:
   **Start the Development Server:**
    npx expo start
 
-How the Project Works
+## How the Project Works
 The Task Management App follows a simple structure for managing tasks. Here's a breakdown of the core components:
 
-Task List Screen:
-Displays a list of all tasks stored locally.
-Allows tasks to be sorted by date (ascending/descending) and filtered by their status (All, Completed, In Progress, Cancelled).
-Includes functionality for viewing details of each task and deleting tasks.
-Task Form Screen:
-Allows users to add new tasks with details like title, description, location, and date.
-The date picker is integrated to allow users to select a due date.
-Form validation ensures that no field is left empty and the date is valid before submission.
-Task Item:
-Represents a single task item within the list.
-Displays basic information about the task such as its title, description, due date, and status.
-Allows users to tap on a task to view more details or to delete the task.
-Storage:
-AsyncStorage is used to save tasks locally on the device. Tasks are loaded and saved whenever the app is opened or updated.
-Validation:
-Custom validation logic ensures all fields are filled correctly before submitting a task, preventing incomplete or incorrect data.
-Libraries and Dependencies
-React Native: Framework for building mobile apps.
-React Navigation: Used for navigating between screens (Task List, Task Form, Task Detail).
-@react-native-picker/picker: Provides the Picker component for filtering tasks.
-@react-native-community/datetimepicker: For selecting task due dates.
-AsyncStorage: Provides a simple, persistent, key-value storage solution.
-React: The underlying JavaScript library for building the user interface.
+1. Task List Screen:
+## Displays a list of all tasks stored locally.
+## Allows tasks to be sorted by date (ascending/descending) and filtered by their status (All, Completed, In Progress, Cancelled).
+## Includes functionality for viewing details of each task and deleting tasks.
+## Task Form Screen:
+## Allows users to add new tasks with details like title, description, location, and date.
+## The date picker is integrated to allow users to select a due date.
+## Form validation ensures that no field is left empty and the date is valid before submission.
+2. Task Item:
+## Represents a single task item within the list.
+## Displays basic information about the task such as its title, description, due date, and status.
+## Allows users to tap on a task to view more details or to delete the task.
+3. Storage:
+## AsyncStorage is used to save tasks locally on the device. Tasks are loaded and saved whenever the app is opened or updated.
+4. Validation:
+## Custom validation logic ensures all fields are filled correctly before submitting a task, preventing incomplete or incorrect data.
+5. Libraries and Dependencies
+## React Native: Framework for building mobile apps.
+## React Navigation: Used for navigating between screens (Task List, Task Form, Task Detail).
+## @react-native-picker/picker: Provides the Picker component for filtering tasks.
+## @react-native-community/datetimepicker: For selecting task due dates.
+## AsyncStorage: Provides a simple, persistent, key-value storage solution.
+## React: The underlying JavaScript library for building the user interface.
