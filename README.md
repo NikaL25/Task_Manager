@@ -44,7 +44,7 @@ Make sure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/yourusername/task-management-app.git](https://github.com/NikaL25/Task_Manager.git)
+   git clone https://github.com/NikaL25/Task_Manager.git
    cd task-manager
 2. Install Dependencies: Run the following command to install the necessary dependencies:
    npm install
